@@ -1,0 +1,24 @@
+{
+  "FOLDERS": {"logs": "./logs/"},
+  "task_list": [
+    {
+      "task_id": "task_1",
+      "description": "business 1",
+      "task_config": "task_1.json",
+      "instances": 1
+    },
+    {
+      "task_id": "task_2",
+      "description": "business 2",
+      "task_config": "task_2.json",
+      "instances": 1
+    },
+    {
+      "task_id": "task_3",
+      "description": "business 3",
+      "task_config": "task_3.json",
+      "instances": 1
+    }
+  ],
+  "execution_order": "reverse"
+}

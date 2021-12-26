@@ -1,0 +1,18 @@
+{
+  "task_id": "task_2",
+  "protocol": "tcp",
+  "source_endpoint": {"protocol": "tcp",
+                    "ip": "127.0.0.1",
+                    "port": 5557},
+  "sink_endpoint": {"protocol": "tcp",
+                    "ip": "127.0.0.1",
+                    "port": 5558},
+  "business": {
+    "module": "Business",
+    "class": "Business2",
+    "worker": "transform",
+    "instance_parameters": {}
+  },
+  "lifecycle": "infinite"
+
+}
