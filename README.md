@@ -1,6 +1,6 @@
 # Pipeline Setup
 
-Pipeline Manager is a framework to run a sequence of tasks with the option to run some on parallel taking advantages of a multi-core processor. It is based on zero mq so even though currently does not support clustered execution, with some few adjustments to read file from remote server could run in this mode.
+Pipeline Manager is a framework to run a sequence of tasks with the option to run some on parallel taking advantages of a multi-core processor. It is based on zero mq so even though currently does not support clustered execution, with some few adjustments to read files from remote servers could run in this mode.
 
 This pipeline framwork has been created to backtest forex trading strategies, but can be applied to other fields.
 
